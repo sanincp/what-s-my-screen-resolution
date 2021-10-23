@@ -1,0 +1,65 @@
+body{
+    background: #7479db !important;
+    overflow-x: hidden !important;
+}
+::-webkit-scrollbar {
+    width: 0px;
+  }
+.title-text{
+    width: fit-content;
+}
+.span-1{
+    color: blue;
+}
+.reslution-div{
+    border: #fff solid 10px;
+}
+@media only screen and (max-width: 600px) {
+    .reslution-div{
+        width: 90%;
+    }
+    .title-text{
+        font-size: 20px;
+        white-space: nowra;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .reslution-div{
+        width: 60%;
+    }
+}
+@media only screen and (min-width: 900px) {
+    .reslution-div{
+        width: 31%;
+    }
+}
+.reslution:hover{
+    cursor: pointer;
+}
+.reslution{
+    font-size: 50px;
+    margin-top: -0.5rem;
+}
+.p-text{
+    font-size: 15px;
+}
+.social-icon li{
+    list-style: none;
+    float: left;
+    font-size: 20px;
+    transition:  .6s;
+}
+.social-icon li:hover{
+    cursor: pointer;
+    transform: translate(0, -10px);
+}
+.nav-bar li{
+    list-style: none;
+    transition: 0.6s;
+}
+.nav-bar a{
+    text-decoration: none;
+}
+.nav-bar li:hover{
+    transform: translate(0, -10px);
+}

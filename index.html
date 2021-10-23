@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>what's my screen reslution</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="hello()">
+    <div class="text-uppercase" id="Home">
+            <h3 class="title-text mx-auto bg-white text-center py-2 mt-5 text-uppercase reslution-div"><span class="span-1">what's</span> my <span class="span-1">screen</span> reslution</h3>
+            <div class="reslution-div mx-auto" onclick="copybtn()" data-bs-toggle="tooltip" data-bs-placement="bottom" title="copy to clipboard">
+                <h3 class="text-uppercase text-center pt-3">you are using</h3>
+                <h1 class=" text-center reslution pb-3"><span id="width"></span> x <span id="height"></span></h1>
+            </div>
+            <div id="About" class="reslution-div mx-auto p-text bg-white mt-2 pt-2 pb-3">
+                <p class="span-1 fw-bold text-center">about this site</p>
+                <p class="p-text text-center ">THE NUMBER ABOVE REPRESENTS YOUR SCREEN / MONITOR RESOLUTION (IN WIDTH AND HEIGHT)</p>
+                <p class="p-text text-center">THIS MICRO WEB UTILITY HELPS YOU TO FIND YOUR MONITOR/SCREEN RESOLUTIONS. THERE IS NO NEED TO DO THE CUMBERSOME RIGHT CLICK, PROPERTIES, SETTINGS, ETC TO FIND OUT YOUR SCREEN RESOLUTION.</p>
+                <ul class="list-unstyled ms-4 text-uppercase">
+                    <li>some search key:
+                      <ul>
+                        <li>what is my screen reslution</li>
+                        <li>what is my screen width and height</li>
+                        <li>screen width height finder</li>
+                        <li>how to find my screen width and height</li>
+                      </ul>
+                    </li>
+                  </ul>
+            </div>
+            <div id="Dev" class="reslution-div mx-auto bg-white mt-2 mb-2">
+                <p class="p-text text-center text-uppercase pt-3 span-1 fw-bold">THIS TOOL PROVIDED FREE BY SAN developing.co</p>
+                <p class="p-text text-center text-uppercase">san developing.co is a web developing group. we develop simple useful web site with free. we also do freelance work online. contact on instagram or E-mail for more details</p>
+                <p class="span-1 text-center fw-bold">developer</p>
+                <p class="text-center">muhammed sanin cp</p>
+            </div>
+            <div id="Contact" class="reslution-div mx-auto mb-2">
+                <p class="text-center text-uppercase fw-bold h5 pt-3">contact</p>
+                <ul class="social-icon d-flex justify-content-evenly mt-3">
+                    <li><a href="https://www.instagram.com/__sanin__12/"><i class="bi bi-instagram text-white"></i></a></li>
+                    <li><a href="https://www.sanincp.ml/"><i class="text-white bi bi-globe"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UC-sE5zIqJY_q0SC_MQ7Rw3Q"><i class="text-white bi bi-youtube"></i></a></li>
+                    <li><a href="https://accounts.google.com/SignOutOptions?hl=en-GB&continue=https://mail.google.com&service=mail"><i class="text-white bi bi-envelope"></i></a></li>
+                    <li class="pe-5"><a href="https://www.instagram.com/__sanin__12/"><i class="text-white bi bi-facebook"></i></a></li>    
+                </ul>
+            </div>
+            <div class="reslution-div mx-auto bg-white mb-2">
+                <ul class="nav-bar d-flex d-flex justify-content-evenly">
+                    <li class="pt-3"><a href="#Home">Home</a></li>
+                    <li class="pt-3"><a href="#About">About</a></li>
+                    <li class="pt-3"><a href="#Dev">Dev</a></li>
+                    <li class="pe-5 pt-3"><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="reslution-div mx-auto bg-white mb-4">
+                <p class="text-center pt-3">Copyright © 2020 SAN DEVELOPING. All rights reserved</p>
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
